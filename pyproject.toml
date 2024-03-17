@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["admin1282 <gaikwadvinayak1282@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.2"
+requests = "^2.31.0"
+djangorestframework = "^3.14.0"
+markdown = "^3.6"
+django-filter = "^24.1"
+celery = "^5.3.6"
+radis = "^0.14"
+redis = "^5.0.3"
+django-celery-results = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
